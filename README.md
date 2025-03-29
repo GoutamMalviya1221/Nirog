@@ -43,10 +43,6 @@ Project Root
 │   │   ├── LoginTest.java
 │   │   ├── SearchTest.java
 │   │   ├── RegisterTest.java
-│   │
-│   │
-│── src/test/java
-│   ├── testng.xml
-│
+│   
 │── pom.xml (For Maven dependencies)
 │── README.md
