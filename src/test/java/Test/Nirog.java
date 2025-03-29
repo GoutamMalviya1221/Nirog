@@ -27,7 +27,7 @@ public class Nirog {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
-	@Test
+	@Test(Priority = 0)
 	public void register() throws InterruptedException {
 		
 		// Click on login 
@@ -53,7 +53,7 @@ public class Nirog {
 		// Enter Pincode
 		driver.findElement(By.xpath("//*[@id=\"pinCode\"]")).sendKeys("450551");
 	}
-	@Test
+	@Test(Priority = 1)
 	public void login() {
 		
 		// Click on Login 
@@ -68,7 +68,7 @@ public class Nirog {
 		 driver.findElement(By.xpath("//*[@class=\" w-200px button button-Primary buttonSize-medium  \"]")).click();
 	}
 	
-	@Test
+	@Test(Priority = 2)
 	public void homepage() {
 		
 //		WebElement drop = driver.findElement(By.xpath("/html/body/div[1]/div[1]/header/div/div[2]/div[1]/div[1]/div/div[2]/div/div[1]/div[2]"));
@@ -79,7 +79,7 @@ public class Nirog {
 		
 		
 	}
-	@Test
+	@Test(Priority = 3)
 	public void search() throws InterruptedException {
 		
 		driver.findElement(By.xpath("//*[@id=\"doctorSearch\"]")).sendKeys("Liver");
@@ -102,7 +102,7 @@ public class Nirog {
 //		}
 	}
 	
-	@Test
+	@Test(Priority = 4)
 	public void navigate() {
 		
 		driver.findElement(By.xpath("//*[@class=\"text-center  mt-2 w-[105px] text-12-16 font-semibold font-Open-Sans text-primary1-500    textDefault bodyText  select-none   \"]")).click();
