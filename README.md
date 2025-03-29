@@ -31,4 +31,22 @@
 🖥️ Test Automation: Selenium 🤖
 🧪 Test Frameworks: TestNG 🛠️
 
-
+Project Root
+│── src/main/java
+│   ├── pages
+│   │   ├── HomePage.java
+│   │   ├── LoginPage.java
+│   │   ├── SearchPage.java
+│   │   └── RegisterPage.java
+│   │
+│   ├── testcases
+│   │   ├── LoginTest.java
+│   │   ├── SearchTest.java
+│   │   ├── RegisterTest.java
+│   │
+│   │
+│── src/test/java
+│   ├── testng.xml
+│
+│── pom.xml (For Maven dependencies)
+│── README.md
