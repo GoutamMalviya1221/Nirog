@@ -31,6 +31,7 @@
 🖥️ Test Automation: Selenium 🤖
 🧪 Test Frameworks: TestNG 🛠️
 
+Page Object Model Approch (POM)
 Project Root
 │── src/main/java
 │   ├── pages
