@@ -47,3 +47,20 @@ Project Root
 │   
 │── pom.xml (For Maven dependencies)
 │── README.md
+
+Cucumber Approch
++------------------------+
+|    Feature Files       |
+| (Written in Gherkin)   |
++------------------------+
+          ↓
++------------------------+
+|   Step Definitions     |
+| (Maps Steps to Code)   |
++------------------------+
+          ↓
++------------------------+
+|      Test Runner       |
+| (Executes Scenarios)   |
++------------------------+
+      
